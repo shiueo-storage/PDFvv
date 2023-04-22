@@ -1,0 +1,27 @@
+{
+  "author": "shißdo",
+
+  "window_border": "0px solid transparent",
+  "window_background_color": "#fafbfb",
+
+  "label_background": "transparent",
+  "label_color": "#000000",
+
+  "pushbutton_background_color": "#fafbfb",
+  "pushbutton_color": "#000000",
+  "pushbutton_border": "1px solid transparent",
+  "pushbutton_padding": "4px 20px",
+  "pushbutton_hover_background_color": "#e7e7e8",
+  "pushbutton_hover_color": "#000000",
+  "pushbutton_pressed_color": "#fafbfb",
+
+  "scrollarea_background": "transparent",
+  "scrollarea_border": "none",
+
+  "lineedit_background": "transparent",
+  "lineedit_border": "1px solid transparent",
+  "lineedit_border_bottom": "1px solid",
+  "lineedit_color": "#000000",
+
+  "current_selected_feature_underline_color": "#f06393"
+}

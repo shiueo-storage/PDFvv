@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>PDFvvClass</class>
+ <widget class="QMainWindow" name="PDFvvClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1072</width>
+    <height>551</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>600</width>
+    <height>400</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>PDFvv</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="PDFvv.qrc">
+    <normaloff>:/PDFvv/assets/icon_round.png</normaloff>:/PDFvv/assets/icon_round.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget:window {border: 0px solid transparent;background-color: #fafbfb;}QLabel {background: transparent;color: #000000;}QPushButton {background-color: #fafbfb;color: #000000;border: 1px solid transparent;padding: 4px 20px;}QPushButton:hover {background-color: #e7e7e8;color: #000000;}QPushButton:pressed {color: #fafbfb;}QScrollArea {background-color: #fafbfb;border: none;}QLineEdit {background: transparent;border: 1px solid transparent;border-bottom: 1px solid;color: #000000;}QGroupBox {border:none;}
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <layout class="QGridLayout" name="gridLayout_2">
+    <item row="1" column="0">
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout">
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_6">
+          <property name="sizeConstraint">
+           <enum>QLayout::SetDefaultConstraint</enum>
+          </property>
+          <item>
+           <widget class="QPushButton" name="IMPORT_PDF_Button">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Maximum" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>50</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">padding: 4px 2px;</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="icon">
+             <iconset resource="PDFvv.qrc">
+              <normaloff>:/PDFvv/assets/icons/ionicons/document.svg</normaloff>:/PDFvv/assets/icons/ionicons/document.svg</iconset>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="LINEEDIT_Button">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Maximum" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>50</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">padding: 4px 2px;</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="icon">
+             <iconset resource="PDFvv.qrc">
+              <normaloff>:/PDFvv/assets/icons/ionicons/create.svg</normaloff>:/PDFvv/assets/icons/ionicons/create.svg</iconset>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="ADD_Folder_Button">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Maximum" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>50</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">padding: 4px 2px;</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="icon">
+             <iconset resource="PDFvv.qrc">
+              <normaloff>:/PDFvv/assets/icons/ionicons/add.svg</normaloff>:/PDFvv/assets/icons/ionicons/add.svg</iconset>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="REMOVE_Button">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Maximum" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>50</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">padding: 4px 2px;</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="icon">
+             <iconset resource="PDFvv.qrc">
+              <normaloff>:/PDFvv/assets/icons/ionicons/remove.svg</normaloff>:/PDFvv/assets/icons/ionicons/remove.svg</iconset>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="LIST_Button">
+            <property name="maximumSize">
+             <size>
+              <width>50</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">padding: 4px 2px;</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="icon">
+             <iconset resource="PDFvv.qrc">
+              <normaloff>:/PDFvv/assets/icons/ionicons/list.svg</normaloff>:/PDFvv/assets/icons/ionicons/list.svg</iconset>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="UP_Button">
+            <property name="styleSheet">
+             <string notr="true">padding: 4px 2px;
+</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="icon">
+             <iconset resource="PDFvv.qrc">
+              <normaloff>:/PDFvv/assets/icons/ionicons/arrow-up.svg</normaloff>:/PDFvv/assets/icons/ionicons/arrow-up.svg</iconset>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="DOWN_Button">
+            <property name="styleSheet">
+             <string notr="true">padding: 4px 2px;</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="icon">
+             <iconset resource="PDFvv.qrc">
+              <normaloff>:/PDFvv/assets/icons/ionicons/arrow-down.svg</normaloff>:/PDFvv/assets/icons/ionicons/arrow-down.svg</iconset>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <widget class="QWebEngineView" name="WEBVIEW">
+        <property name="url">
+         <url>
+          <string>about:blank</string>
+         </url>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="0" column="0">
+     <layout class="QGridLayout" name="gridLayout">
+      <item row="0" column="1">
+       <layout class="QHBoxLayout" name="Featured_Box">
+        <item>
+         <widget class="QLabel" name="PDFvv_LOGO">
+          <property name="font">
+           <font>
+            <family>맑은 고딕</family>
+            <pointsize>14</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>PDFvv</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="View_Button">
+          <property name="font">
+           <font>
+            <family>맑은 고딕</family>
+            <pointsize>11</pointsize>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <property name="text">
+           <string>View</string>
+          </property>
+          <property name="icon">
+           <iconset resource="PDFvv.qrc">
+            <normaloff>:/PDFvv/assets/icons/ionicons/eye.svg</normaloff>:/PDFvv/assets/icons/ionicons/eye.svg</iconset>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="Images_to_PDF_Button">
+          <property name="font">
+           <font>
+            <family>맑은 고딕</family>
+            <pointsize>11</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>Images to PDF</string>
+          </property>
+          <property name="icon">
+           <iconset resource="PDFvv.qrc">
+            <normaloff>:/PDFvv/assets/icons/ionicons/cube.svg</normaloff>:/PDFvv/assets/icons/ionicons/cube.svg</iconset>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="PDF_to_Images_Button">
+          <property name="font">
+           <font>
+            <family>맑은 고딕</family>
+            <pointsize>11</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>PDF to Images</string>
+          </property>
+          <property name="icon">
+           <iconset resource="PDFvv.qrc">
+            <normaloff>:/PDFvv/assets/icons/ionicons/cube-outline.svg</normaloff>:/PDFvv/assets/icons/ionicons/cube-outline.svg</iconset>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="LineEdit">
+          <property name="text">
+           <string>Default</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="RESET_Button">
+          <property name="text">
+           <string/>
+          </property>
+          <property name="icon">
+           <iconset resource="PDFvv.qrc">
+            <normaloff>:/PDFvv/assets/icons/ionicons/refresh.svg</normaloff>:/PDFvv/assets/icons/ionicons/refresh.svg</iconset>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>QWebEngineView</class>
+   <extends>QWidget</extends>
+   <header location="global">QtWebEngineWidgets/QWebEngineView</header>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="PDFvv.qrc"/>
+ </resources>
+ <connections/>
+</ui>
